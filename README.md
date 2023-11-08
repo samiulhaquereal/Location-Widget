@@ -4,18 +4,18 @@ A new Flutter project.
 
 ## Getting Started
 
-#step 1 : add 2 packages in you project 
+# step 1 : add 2 packages in you project 
 	1.geolocator -> For getting user latitude and longitude
 	2.geocoding -> For converting user latitude and longitude to address
 
 
-#step 2 Android permission
+# step 2 Android permission
 Add this in android/app/src/main/androidManifest.xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
-#Step 3 IOS permission
+# Step 3 IOS permission
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>This app needs access to location when open.</string>
 <key>NSLocationAlwaysUsageDescription</key>
